@@ -31,6 +31,9 @@
     </Compile>
     <Compile Include="Data_operations.py" />
     <Compile Include="LiinkedList.py" />
+    <Compile Include="nosqlDB.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="ProcessingCSVFiles.py">
       <SubType>Code</SubType>
     </Compile>
