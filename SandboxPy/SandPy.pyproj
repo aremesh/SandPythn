@@ -23,12 +23,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="BasicsPython.py">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Include="DataCleansing.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="BasicsPython.py" />
     <Compile Include="Data_operations.py" />
     <Compile Include="LiinkedList.py" />
     <Compile Include="nosqlDB.py">
@@ -38,6 +36,12 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="ProcessingJSONData.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sqlDatabase.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Utils.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

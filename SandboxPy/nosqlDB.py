@@ -3,22 +3,16 @@ from pymongo import MongoClient
 from pprint import pprint
 
 # Choose the appropriate client
-client = MongoClient()
-
+client = MongoClient("mongodb://dbuser1:dbuser1@ds161162.mlab.com:61162/pysand")
 # Connect to the test db 
-db=client.test
+db=client.pysand
 
 # Use the employee collection
-employee = db.employee
+employee = db.custOrders 
 employee_details = {
     'Name': 'Raj Kumar',
     'Address': 'Sears Streer, NZ',
     'Age': '42'
 }
-
-# Use the insert method
 result = employee.insert_one(employee_details)
-
-# Query for the inserted document.
-Queryresult = employee.find_one({'Age': '42'})
-pprint(Queryresult)
+print(result)
