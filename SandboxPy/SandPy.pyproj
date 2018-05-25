@@ -34,9 +34,19 @@
     <Compile Include="ProcessingCSVFiles.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="ProcessingJSONData.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="inputs\input.csv" />
+    <Content Include="inputs\input.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="inputs\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
