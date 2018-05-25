@@ -23,10 +23,17 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="BasicsPython.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DataCleansing.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Data_operations.py" />
+    <Compile Include="LiinkedList.py" />
+    <Compile Include="ProcessingCSVFiles.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.6" />
