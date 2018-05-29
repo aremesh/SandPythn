@@ -51,6 +51,8 @@
   <ItemGroup>
     <Content Include="inputs\input.csv" />
     <Content Include="inputs\input.json" />
+    <Content Include="inputs\input1.xlsx" />
+    <Content Include="inputs\input2.xlsx" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="inputs\" />
