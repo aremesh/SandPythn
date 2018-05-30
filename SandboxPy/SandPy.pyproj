@@ -23,10 +23,16 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DataAggregation.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="DataCleansing.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="BasicsPython.py" />
+    <Compile Include="DataMerging.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Data_operations.py" />
     <Compile Include="LiinkedList.py" />
     <Compile Include="nosqlDB.py">

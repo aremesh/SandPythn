@@ -4,6 +4,7 @@ from pprint import pprint
 
 # Choose the appropriate client
 client = MongoClient("mongodb://dbuser1:dbuser1@ds161162.mlab.com:61162/pysand")
+print(client)
 # Connect to the test db 
 db=client.pysand
 
